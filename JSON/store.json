@@ -1,17 +1,41 @@
 {
-  "English":"../images/English.jpg",
-  "Chinese":"../images/Chinese.jpg",
-  "Malay":"../images/Malay.jpg",
-  "Tamil":"../images/Tamil.jpg",
-  "Science":"../images/Science.jpg",
-  "Biology":"../images/Biology.jpg",
-  "Chemistry":"../images/Chemistry.jpg",
-  "Physics":"../images/Physics.jpg",
-  "Geography":"../images/Geography.jpg",
-  "History":"../images/History.jpg",
-  "Economics":"../images/Economics.jpg",
-  "SocialStudies":"../images/SocialStudies.jpg",
-  "Math":"../images/Math.jpg"
+  "P1": {
+    "Tamil": ["../images/P1/Math.jpg"],
+    "Math": ["../images/P1/Tamil.jpg"]
+  },
+  "P2": {
+    "Malay": ["../images/P2/Malay.jpg"]
+  },
+  "P3": {
+    "English": ["../images/P3/English.jpg"]
+  },
+  "P4": {
+    "Chinese": ["../images/P4/Chinese.jpg"]
+  },
+  "P5": {
+    "Chinese": ["../images/P5/P5Chinese.jpg"]
+  },
+  "P6": {
+    "Math": ["../images/P6/P6Math.jpg"]
+  },
+  "S1": {
+    "History": ["../images/S1/History.jpg"]
+  },
+  "S2": {
+    "Geography": ["../images/S2Geography.jpg"],
+    "Science": ["../images/S2/Science.jpg"]
+  },
+  "S3": {
+    "Social Studies": ["../images/S3/SocialStudies.jpg"],
+    "Science": ["../images/S3/Physics.jpg"]
+  },
+  "S4": {
+    "Science": ["../images/S4/Biology.jpg", "../images/S4/Chemistry.jpg"]
+  },
+  " J1": {
+    "Economics": ["../images/J1/Economics.jpg"]
+  },
+  "J2": {
+    "Science": ["../images/J2/J2Chemistry.jpg"]
+  }
 }
-
-

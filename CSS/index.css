@@ -1,44 +1,47 @@
 .start-page {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
 }
 
+h1 {
+  font-size: 4rem !important;
+}
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .border1 {
-    border-right: 2.5px solid black;
+  border-right: 2.5px solid black;
 }
 
-
 .container1 {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .starttitle {
-    font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
 }
 .btnstart {
-    background: none;
-    border: 2px solid;
-    font: 'Readex Pro', sans-serif;
-    line-height: 1;
-    margin: 0.5em;
-    padding: 1em 2em;
+  background: none;
+  border: 2px solid;
+  font: "Readex Pro", sans-serif;
+  font-size: 1.75rem !important;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
 }
 
 .fill:hover,
@@ -47,16 +50,15 @@
 }
 
 .header {
-	font-family: 'Open Sans';
-	font-size: 22px;
-	font-style: bold;
-	
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-style: bold;
 }
 
 body {
-background: rgba(255, 255, 255, 0.09);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(3.1px);
--webkit-backdrop-filter: blur(3.1px);
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
 }

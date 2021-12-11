@@ -1,4 +1,4 @@
-function filter(){
+function filter() {
   let dropChild = document.getElementById("dropdownMenuButton").children;
   for (i in dropChild) {
     var myLevel = dropChild[i].getAttribute("class").split(" ");
@@ -17,65 +17,55 @@ function filter(){
       break;
     }
   }
-  showBooks(level,subject)
-};
-
-
+  showBooks(level, subject);
+}
 
 showBooks = (level, subject) => {
-  var title = []
-    var url = []
-    var qty = []
-   $.getJSON("../JSON/store.json", (data) => {
-     if ((level == "placeholder" || level == "All") && subject == "") {
-       for (lvl in data) {
-
-         for (subj in data[lvl]) {
-           for(test in data[lvl][subj]){
-            title.push(data[lvl][subj][test].name)     
-            url.push(data[lvl][subj][test].url)
-            qty.push(data[lvl][subj][test].qty)
-           }
+  var title = [];
+  var url = [];
+  var qty = [];
+  $.getJSON("../JSON/store.json", (data) => {
+    if ((level == "placeholder" || level == "All") && subject == "") {
+      for (lvl in data) {
+        for (subj in data[lvl]) {
+          for (test in data[lvl][subj]) {
+            title.push(data[lvl][subj][test].name);
+            url.push(data[lvl][subj][test].url);
+            qty.push(data[lvl][subj][test].qty);
+          }
         }
       }
-    }
-    else{
-      for(lvl in data){
-        if(data[lvl] == level){
-          for(subj in data[lvl]){
-            if(data[lvl][subj] == subject){
-              console.log("here")
-              title.push(data[lvl][subj][test].name)
-              url.push(data[lvl][subj][test].url)
-              qty.push(data[lvl][subj][test].qty)
+    } else {
+      for (lvl in data) {
+        if (data[lvl] == level) {
+          for (subj in data[lvl]) {
+            if (data[lvl][subj] == subject) {
+              console.log("here");
+              title.push(data[lvl][subj][test].name);
+              url.push(data[lvl][subj][test].url);
+              qty.push(data[lvl][subj][test].qty);
             }
           }
-          
-          
         }
       }
     }
-      for (var i = 0; i < title.length; i++){
-    document.getElementById("books").innerHTML += 
-`
+    for (var i = 0; i < title.length; i++) {
+      document.getElementById("books").innerHTML += `
 <div class="col-md-3 col-12 p-3 mx-1 mx-md-0 bg-white d-flex flex-column justify-content-center align-items-center" style="border-radius: 20px; gap:10px;">
                 <img src="${url[i]}">
                 <div class="d-flex justify-content-center align-items-center " style="gap:30px"><h6 class="m-0" id="title${i}">${title[i]}</h6><h6 class="m-0" id="qty${i}" >${qty[i]} </h6></div>
-              </div>`
-        if (qty[i] <= 20) {
-          var qtyid = "qty" + [i]
-          var titleid = "title" + [i]
-          document.getElementById(titleid).style.color = "red" 
-          document.getElementById(titleid).style.fontWeight = "bold" 
-          document.getElementById(qtyid).style.color = "red" 
-          document.getElementById(qtyid).style.fontWeight = "bold" 
-        }
-  }
-   });
-
-
+              </div>`;
+      if (qty[i] <= 20) {
+        var qtyid = "qty" + [i];
+        var titleid = "title" + [i];
+        document.getElementById(titleid).style.color = "red";
+        document.getElementById(titleid).style.fontWeight = "bold";
+        document.getElementById(qtyid).style.color = "red";
+        document.getElementById(qtyid).style.fontWeight = "bold";
+      }
+    }
+  });
 };
-
 
 // Remove Select Level From Drop Down
 document.getElementById("dropdownMenuButton").addEventListener("click", () => {
@@ -96,5 +86,3 @@ document.getElementById("dropdownMenuButton2").addEventListener("click", () => {
     }
   }
 });
-
-

@@ -9,11 +9,11 @@
     ],
     "Tamil": [
       {
-      "name": "Primary Tamil 1B",
-      "url": "../images/P1/Tamil.jpg,",
-      "qty": 500
+        "name": "Primary Tamil 1B",
+        "url": "../images/P1/Tamil.jpg,",
+        "qty": 500
       }
-  ]
+    ]
   },
   "P2": {
     "Malay": [
@@ -21,20 +21,44 @@
         "name": "Conversational Malay 2",
         "url": "../images/P2/Malay.jpg",
         "qty": 500
-        }
+      }
     ]
   },
   "P3": {
-    "English": ["../images/P3/English.jpg"]
+    "English": [
+      {
+        "name": "English Thematic Model Compositions Primary 3",
+        "url": "../images/P3/English.jpg",
+        "qty": 500
+      }
+    ]
   },
   "P4": {
-    "Chinese": ["../images/P4/Chinese.jpg"]
+    "Chinese": [
+      {
+        "name": "Chinese 4A",
+        "url": "../images/P4/Chinese.jpg",
+        "qty": 500
+      }
+    ]
   },
   "P5": {
-    "Chinese": ["../images/P5/P5Chinese.jpg"]
+    "Chinese": [
+      {
+        "name": "Chinese 5A",
+        "url": "../images/P5/P5Chinese.jpg",
+        "qty": 500
+      }
+    ]
   },
   "P6": {
-    "Math": ["../images/P6/P6Math.jpg"]
+    "Math": [
+      {
+        "name": "Targeting Mathematics",
+        "url": "../images/P6/P6Math.jpg",
+        "qty": 500
+      }
+    ]
   },
   "S1": {
     "History": ["../images/S1/History.jpg"]

@@ -268,7 +268,7 @@ body {
 @media only screen and (max-width: 360px) {
   .drop,
   .drop2 {
-    width: 14em !important;
+    width: 12em !important;
     margin: 3em auto !important;
   }
   .drop.visible,

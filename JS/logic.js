@@ -3,7 +3,7 @@ filter = () => {
   for (i in dropChild) {
     myLevel = dropChild[i].getAttribute("class").split(" ");
     if (myLevel.includes("active")) {
-      var lvl = dropChild[i].getAttribute("value");
+      var level = dropChild[i].getAttribute("value");
       console.log(dropChild[i].getAttribute("value"));
       break;
     }
@@ -12,7 +12,7 @@ filter = () => {
   for (i in dropChild2) {
     myLevel = dropChild2[i].getAttribute("class").split(" ");
     if (myLevel.includes("active")) {
-      var sub = dropChild2[i].getAttribute("value");
+      var subject = dropChild2[i].getAttribute("value");
       console.log(dropChild2[i].getAttribute("value"));
       break;
     }

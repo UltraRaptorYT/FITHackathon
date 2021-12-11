@@ -1,5 +1,5 @@
 #books img {
-  max-width: 10vw !important;
+  max-width: 10vw;
 }
 
 .header {
@@ -108,7 +108,7 @@ body {
 
 .drop,
 .drop2 {
-  width: 20em;
+  width: 15em;
   margin: 5em auto;
   font-family: pfs-bold;
   color: rgb(53, 36, 128);
@@ -132,7 +132,7 @@ body {
 .drop.visible,
 .drop2.visible {
   animation: bounce 1s;
-  width: 22em;
+  width: 20em;
 }
 .drop.visible:before,
 .drop.visible:after,
@@ -265,24 +265,6 @@ body {
   opacity: 0;
   transform: translateY(-50%);
 }
-@media only screen and (max-width: 360px) {
-  .drop,
-  .drop2 {
-    width: 14em !important;
-    margin: 3em auto !important;
-  }
-  .drop.visible,
-  .drop2.visible {
-    animation: bounce 1s;
-    width: 15em !important;
-  }
-  #books img {
-    max-width: 25vw !important;
-  }
-  #books {
-    gap: 10px;
-  }
-}
 
 #mail input:not(input[type="submit"]) {
   display: block;
@@ -296,4 +278,23 @@ body {
 
 #mail input:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 360px) {
+  .drop,
+  .drop2 {
+    width: 13em !important;
+    margin: 3em auto !important;
+  }
+  .drop.visible,
+  .drop2.visible {
+    animation: bounce 1s;
+    width: 13em !important;
+  }
+  #books img {
+    max-width: 35vw !important;
+  }
+  #books {
+    gap: 10px;
+  }
 }

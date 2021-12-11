@@ -80,7 +80,7 @@ showBooks = (level, subject) => {
     if (title.length == 0) {
       document.getElementById(
         "books"
-      ).innerHTML = `<h6> Sorry there are no books available </h6>`;
+      ).innerHTML = `<h6 style="color:white;"> Sorry there are no books available</h6>`;
     } else {
       for (var i = 0; i < title.length; i++) {
         document.getElementById("books").innerHTML += `

@@ -27,7 +27,7 @@ showBooks = (level, subject) => {
     var url = []
     var qty = []
    $.getJSON("../JSON/store.json", (data) => {
-     if ((level == "placeholder" || level == "ALL") && subject == "") {
+     if ((level == "placeholder" || level == "ALL") && (subject == "" || subject == "ALL")) {
        for (lvl in data) {
          for (subj in data[lvl]) {
            title.push(data[lvl][subj][0].name)

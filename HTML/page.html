@@ -23,7 +23,7 @@
     <script src="../JS/logic.js" defer></script>
   </head>
 
-  <body>
+  <body onload="showBooks('All')">
     <header>
       <div class="container_nav mb-5 pb-5 ">
         <nav class="navbar topnav d-flex fixed-top align-items-center">
@@ -115,66 +115,64 @@
                       aria-expanded="false"
                       >
   
-                      <div class="option2 active placeholder2" value="placeholder2">
+                      <div class="option2 active placeholder" value="placeholder">
                         Select Subject:
                       </div>
                       <div class="option2 dropdown-item" value="ALL">
                         ALL
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="English">
                         English
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="Chinese">
                         Chinese
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="Malay">
                         Malay
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="Tamil">
                         Tamil
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="Math">
                         Math
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="Science">
                         Science
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="Social Studies">
                         Social Studies
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="Economics">
                         Economics
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="Geography">
                         Geography
                       </div>
-                      <div class="option2 dropdown-item" value="ALL">
-                        Math
-                      </div>
-                      <div class="option2 dropdown-item" value="ALL">
+                      <div class="option2 dropdown-item" value="History">
                         History
                       </div>
                     </div>
   
                   </div>
                   <div class = "col-12 col-xl-2 align-self-center text-center">
-                    <input class="btn btn-primary btn-lg" type="submit" onclick="fuck()" value="Submit">
+                    <input class="btn btn-primary btn-lg" type="submit" onclick="filter()" value="Filter">
                   </div>
               </div>
   
-          <div class="container mt-5">
-            <div class="row">
-              <div class="col-md-4 mx-1">
+          <div class="container mt-5 text-white">
+            <div class="row justify-content-center" id="books">
+              <div class="col-md-4 col-12 mx-1 mx-md-0">
                 <h3>Image</h3>
               </div>
   
-              <div class="col-md-3 mx-1">
+              <div class="col-md-4 col-12 mx-1 mx-md-0">
                 <h3>Image</h3>
               </div>
   
-              <div class="col-md-4 mx-1">
+              <div class="col-md-4 col-12 mx-1 mx-md-0 book">
                 <h3>Image</h3>
               </div>
+              <p>Testing</p>
             </div>
           </div>
   

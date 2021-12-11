@@ -39,7 +39,7 @@ body {
 }
 .container-white {
   width: 70em;
-  height: 50rem;
+  min-height: 50rem;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   position: relative;

@@ -4,14 +4,14 @@
       {
         "name": "Primary Mathematics 1A",
         "url": "../images/P1/Math.jpg",
-        "qty": 500
+        "qty": 154
       }
     ],
     "Tamil": [
       {
         "name": "Primary Tamil 1B",
-        "url": "../images/P1/Tamil.jpg,",
-        "qty": 500
+        "url": "../images/P1/Tamil.jpg",
+        "qty": 141
       }
     ]
   },
@@ -20,7 +20,7 @@
       {
         "name": "Conversational Malay 2",
         "url": "../images/P2/Malay.jpg",
-        "qty": 500
+        "qty": 57
       }
     ]
   },
@@ -29,7 +29,7 @@
       {
         "name": "English Thematic Model Compositions Primary 3",
         "url": "../images/P3/English.jpg",
-        "qty": 500
+        "qty": 93
       }
     ]
   },
@@ -38,7 +38,7 @@
       {
         "name": "Chinese 4A",
         "url": "../images/P4/Chinese.jpg",
-        "qty": 500
+        "qty": 88
       }
     ]
   },
@@ -47,7 +47,7 @@
       {
         "name": "Chinese 5A",
         "url": "../images/P5/P5Chinese.jpg",
-        "qty": 500
+        "qty": 152
       }
     ]
   },
@@ -56,7 +56,7 @@
       {
         "name": "Targeting Mathematics",
         "url": "../images/P6/P6Math.jpg",
-        "qty": 500
+        "qty": 184
       }
     ]
   },
@@ -65,7 +65,7 @@
       {
         "name": "Singapore: The making of a nation-state, 1300-1975, S1",
         "url": "../images/S1/History.jpg",
-        "qty": 500
+        "qty": 201
       }
     ]
   },
@@ -74,14 +74,14 @@
     {
       "name": "All about Geography Secondary Two Urban Living",
       "url": "../images/S2/Geography.jpg",
-      "qty": 500
+      "qty": 7
     }
   ],
     "Science": [
     {
       "name": "Lower Secondary Science Matters 2nd Edition Volume B",
       "url": "../images/S2/Science.jpg",
-      "qty": 500
+      "qty": 19
     }
   ]
   },
@@ -89,15 +89,15 @@
     "Social Studies": [
     {
       "name": "Upper Secondary Social Studies Express, Normal(Academic) 2nd Edition(Revised), 3 Textbook",
-      "url": "../images/SocialStudies.jpg",
-      "qty": 500
+      "url": "../images/S3/SocialStudies.jpg",
+      "qty": 127
     }
   ],
     "Science": [
     {
       "name": "Discover Physics GCE 'O' Level Science, 4th Edition",
       "url": "../images/S3/Physics.jpg",
-      "qty": 500
+      "qty": 134
     }
   ]
   },
@@ -106,19 +106,19 @@
       {
         "name": "Biology Matters, GCE 'O' Level, 2nd Edition",
         "url": "../images/S4/Biology.jpg",
-        "qty": 500
+        "qty": 119
       },{
         "name": "Chemistry Matters, GCE 'O' Level, 2nd Edition",
         "url": "../images/S4/Chemistry.jpg",
-        "qty": 500
+        "qty": 256
       }]
   },
-  " J1": {
+  "J1": {
     "Economics": [
       {
       "name": "Economics Ninth Edition, Compiled by Singapore Polytechnic School of Business",
       "url": "../images/J1/Economics.jpg",
-      "qty": 500
+      "qty": 130
     }]
   },
   "J2": {
@@ -126,7 +126,7 @@
     {
       "name": "A-Level Study Guide Chemistry (Higher 2), Edition 3",
       "url": "../images/J2/J2Chemistry.jpg",
-      "qty": 500
+      "qty": 222
     }]
   }
 }

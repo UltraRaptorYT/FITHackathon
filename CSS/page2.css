@@ -279,11 +279,10 @@ body {
 #mail input:focus {
   outline: none;
 }
-
 @media only screen and (max-width: 360px) {
   .drop,
   .drop2 {
-    width: 13em !important;
+    width: 11em !important;
     margin: 3em auto !important;
   }
   .drop.visible,
@@ -292,7 +291,7 @@ body {
     width: 13em !important;
   }
   #books img {
-    max-width: 35vw !important;
+    max-width: 40vw !important;
   }
   #books {
     gap: 10px;

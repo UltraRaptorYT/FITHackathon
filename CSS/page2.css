@@ -279,4 +279,7 @@ body {
   #books img {
     max-width: 25vw !important;
   }
+  #books {
+    gap: 10px;
+  }
 }

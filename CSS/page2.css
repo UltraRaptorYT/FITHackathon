@@ -265,7 +265,7 @@ body {
   opacity: 0;
   transform: translateY(-50%);
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 768px) {
   .drop,
   .drop2 {
     width: 12em !important;

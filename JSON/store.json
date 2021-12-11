@@ -61,23 +61,72 @@
     ]
   },
   "S1": {
-    "History": ["../images/S1/History.jpg"]
+    "History": [
+      {
+        "name": "Singapore: The making of a nation-state, 1300-1975, S1",
+        "url": "../images/S1/History.jpg",
+        "qty": 500
+      }
+    ]
   },
   "S2": {
-    "Geography": ["../images/S2Geography.jpg"],
-    "Science": ["../images/S2/Science.jpg"]
+    "Geography": [
+    {
+      "name": "All about Geography Secondary Two Urban Living",
+      "url": "../images/S2/Geography.jpg",
+      "qty": 500
+    }
+  ],
+    "Science": [
+    {
+      "name": "Lower Secondary Science Matters 2nd Edition Volume B",
+      "url": "../images/S2/Science.jpg",
+      "qty": 500
+    }
+  ]
   },
   "S3": {
-    "Social Studies": ["../images/S3/SocialStudies.jpg"],
-    "Science": ["../images/S3/Physics.jpg"]
+    "Social Studies": [
+    {
+      "name": "Upper Secondary Social Studies Express, Normal(Academic) 2nd Edition(Revised), 3 Textbook",
+      "url": "../images/SocialStudies.jpg",
+      "qty": 500
+    }
+  ],
+    "Science": [
+    {
+      "name": "Discover Physics GCE 'O' Level Science, 4th Edition",
+      "url": "../images/S3/Physics.jpg",
+      "qty": 500
+    }
+  ]
   },
   "S4": {
-    "Science": ["../images/S4/Biology.jpg", "../images/S4/Chemistry.jpg"]
+    "Science": [
+      {
+        "name": "Biology Matters, GCE 'O' Level, 2nd Edition",
+        "url": "../images/S4/Biology.jpg",
+        "qty": 500
+      },{
+        "name": "Chemistry Matters, GCE 'O' Level, 2nd Edition",
+        "url": "../images/S4/Chemistry.jpg",
+        "qty": 500
+      }]
   },
   " J1": {
-    "Economics": ["../images/J1/Economics.jpg"]
+    "Economics": [
+      {
+      "name": "Economics Ninth Edition, Compiled by Singapore Polytechnic School of Business",
+      "url": "../images/J1/Economics.jpg",
+      "qty": 500
+    }]
   },
   "J2": {
-    "Science": ["../images/J2/J2Chemistry.jpg"]
+    "Science": [
+    {
+      "name": "A-Level Study Guide Chemistry (Higher 2), Edition 3",
+      "url": "../images/J2/J2Chemistry.jpg",
+      "qty": 500
+    }]
   }
 }

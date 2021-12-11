@@ -1,6 +1,12 @@
 {
   "P1": {
-    "Tamil": ["../images/P1/Math.jpg"],
+    "Tamil": [
+      {
+        "name": "Primary Mathematics 1A",
+        "url": "../images/P1/Math.jpg",
+        "qty": 5
+      }
+    ],
     "Math": ["../images/P1/Tamil.jpg"]
   },
   "P2": {

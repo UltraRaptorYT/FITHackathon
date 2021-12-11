@@ -277,7 +277,7 @@ body {
     width: 15em !important;
   }
   #books img {
-    max-width: 25vw !important;
+    max-width: 50vw !important;
   }
   #books {
     gap: 10px;

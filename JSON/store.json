@@ -1,16 +1,28 @@
 {
   "P1": {
-    "Tamil": [
+    "Math": [
       {
         "name": "Primary Mathematics 1A",
         "url": "../images/P1/Math.jpg",
-        "qty": 5
+        "qty": 500
       }
     ],
-    "Math": ["../images/P1/Tamil.jpg"]
+    "Tamil": [
+      {
+      "name": "Primary Tamil 1B",
+      "url": "../images/P1/Tamil.jpg,",
+      "qty": 500
+      }
+  ]
   },
   "P2": {
-    "Malay": ["../images/P2/Malay.jpg"]
+    "Malay": [
+      {
+        "name": "Conversational Malay 2",
+        "url": "../images/P2/Malay.jpg",
+        "qty": 500
+        }
+    ]
   },
   "P3": {
     "English": ["../images/P3/English.jpg"]

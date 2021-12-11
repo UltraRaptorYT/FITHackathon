@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 360px) {
   .drop,
   .drop2 {
     width: 12em !important;
@@ -10,7 +10,7 @@
     width: 14em !important;
   }
   #books img {
-    max-width: 50vw !important;
+    max-width: 30vw !important;
   }
   #books {
     gap: 10px;

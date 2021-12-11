@@ -90,8 +90,8 @@ else if(subject == "ALL" && level!=""){
       }
      }
             document.getElementById("books").innerHTML = ""
-          if (title.lenght == 0) {
-            document.getElementById("books").innerHTML = `<h6>Sorry there are no books available</h6>`
+          if (title.length == 0) {
+            document.getElementById("books").innerHTML = `<h6 style="color:white">Sorry there are no books available</h6>`
           } else {
             for (var i = 0; i < title.length; i++) {
               document.getElementById("books").innerHTML +=

@@ -3,6 +3,7 @@ filter = () => {
   for (i in dropChild) {
     myLevel = dropChild[i].getAttribute("class").split(" ");
     if (myLevel.includes("active")) {
+      var lvl = dropChild[i].getAttribute("value");
       console.log(dropChild[i].getAttribute("value"));
       break;
     }
@@ -11,6 +12,7 @@ filter = () => {
   for (i in dropChild2) {
     myLevel = dropChild2[i].getAttribute("class").split(" ");
     if (myLevel.includes("active")) {
+      var sub = dropChild2[i].getAttribute("value");
       console.log(dropChild2[i].getAttribute("value"));
       break;
     }
@@ -18,11 +20,12 @@ filter = () => {
   return;
 };
 
-showBooks = (type) => {
-  if (type == "All") {
-    $.getJSON("../JSON/store.json", (data) => {
-      console.log(data);
-    });
+showBooks = (lvl, sub) => {
+  $.getJSON("../JSON/store.json", (data) => {
+    console.log(data);
+  });
+  if (lvl == "All" || (lvl == "placeholder" && sub == "")) {
+    console.log("Hi");
   }
   document.getElementById("books");
 };

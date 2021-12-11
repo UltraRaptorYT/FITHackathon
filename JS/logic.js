@@ -77,7 +77,7 @@ showBooks = (level, subject) => {
       }
     }
     document.getElementById("books").innerHTML = "";
-    if (title.lenght == 0) {
+    if (title.length == 0) {
       document.getElementById(
         "books"
       ).innerHTML = `<h6>Sorry there are no books available</h6>`;

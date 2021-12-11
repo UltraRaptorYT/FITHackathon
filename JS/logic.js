@@ -17,51 +17,30 @@ filter = () => {
       break;
     }
   }
-  return;
+  return [level,subject];
 };
 
-loopThruImg = (data, level, subject) => {
-  for (i in data) {
-    if (level in data) {
-      for (j in data[i])  {
-        if (subject in data[i]) {
-          return subject.url
+loop_json = function (data, filter) {
+  for(lvl in data){
+    if(level == lvl){
+      for(subj in lvl){
+        if(subject == subj){
+          var title = subj.name
+          var url = subj.url
+          var qty = sub.qty
         }
       }
     }
   }
+  return(title,url,qty)
 };
+
+console.log(loop_json)
 
 showBooks = (lvl, sub) => {
   $.getJSON("../JSON/store.json", (data) => {
     console.log(data);
-    if (lvl == "All" || (lvl == "placeholder" && sub == "")) {
-      console.log("Hi");
-    } else if (lvl == "P1" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg(data, "P1", )
-    } else if (lvl == "P2" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "P3" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "P4" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "P5" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "P6" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "S1" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "S2" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "S3" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "S4" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "J1" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    } else if (lvl == "J2" || (lvl == "placeholder" && sub == "")) {
-      loopThruImg()
-    }
+    
   });
   
   document.getElementById("books");

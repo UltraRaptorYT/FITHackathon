@@ -1,13 +1,13 @@
 @media only screen and (max-width: 768px) {
   .drop,
   .drop2 {
-    width: 7em !important;
+    width: 12em !important;
     margin: 3em auto !important;
   }
   .drop.visible,
   .drop2.visible {
     animation: bounce 1s;
-    width: 10em !important;
+    width: 14em !important;
   }
   #books img {
     max-width: 50vw !important;
@@ -297,23 +297,4 @@ body {
 
 #mail input:focus {
   outline: none;
-}
-
-@media only screen and (max-width: 360px) {
-  .drop,
-  .drop2 {
-    width: 7em !important;
-    margin: 3em auto !important;
-  }
-  .drop.visible,
-  .drop2.visible {
-    animation: bounce 1s;
-    width: 10em !important;
-  }
-  #books img {
-    max-width: 50vw !important;
-  }
-  #books {
-    gap: 10px;
-  }
 }

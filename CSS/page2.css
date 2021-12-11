@@ -268,13 +268,13 @@ body {
 @media only screen and (max-width: 768px) {
   .drop,
   .drop2 {
-    width: 12em !important;
+    width: 7em !important;
     margin: 3em auto !important;
   }
   .drop.visible,
   .drop2.visible {
     animation: bounce 1s;
-    width: 15em !important;
+    width: 10em !important;
   }
   #books img {
     max-width: 50vw !important;

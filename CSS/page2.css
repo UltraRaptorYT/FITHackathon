@@ -283,3 +283,17 @@ body {
     gap: 10px;
   }
 }
+
+#mail input:not(input[type="submit"]) {
+  display: block;
+  width: 300px;
+  height: 20px;
+  border: 0;
+  border-radius: 3px;
+  padding: 20px 15px;
+  background: #fff;
+}
+
+#mail input:focus {
+  outline: none;
+}

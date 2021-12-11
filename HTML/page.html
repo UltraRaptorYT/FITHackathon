@@ -23,7 +23,7 @@
     <script src="../JS/logic.js" defer></script>
   </head>
 
-  <body onload="showBooks('All','')">
+  <body class="m-4" onload="showBooks('All','')">
     <header>
       <div class="container_nav mb-5 pb-5 ">
         <nav class="navbar topnav d-flex fixed-top align-items-center">
@@ -169,7 +169,19 @@
           </div>
   
         </div>
-</div>
+      </div>
     </div>
+    <footer class="text-white d-flex justify-content-center align-items-center p-4 mt-3">
+      <div id="mail">
+        <h4 class="text-center">Mailing Listing</h4>
+        <div class="d-flex align-items-center justify-content-center" style="gap:10px;">
+          <div class="d-flex flex-column" style="gap:10px;">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+          </div>
+          <input type="submit" value="Subscribe" class="btn btn-primary btn-lg">
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

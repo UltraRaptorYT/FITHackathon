@@ -20,57 +20,53 @@ filter = () => {
   return;
 };
 
+loopThruImg = (data, level, subject) => {
+  for (i in data) {
+    if (level in data) {
+      for (j in data[i])  {
+        if (subject in data[i]) {
+          return subject.url
+        }
+      }
+    }
+  }
+};
+
 showBooks = (lvl, sub) => {
   $.getJSON("../JSON/store.json", (data) => {
     console.log(data);
+    if (lvl == "All" || (lvl == "placeholder" && sub == "")) {
+      console.log("Hi");
+    } else if (lvl == "P1" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg(data, "P1", )
+    } else if (lvl == "P2" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "P3" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "P4" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "P5" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "P6" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "S1" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "S2" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "S3" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "S4" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "J1" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    } else if (lvl == "J2" || (lvl == "placeholder" && sub == "")) {
+      loopThruImg()
+    }
   });
-  if (lvl == "All" || (lvl == "placeholder" && sub == "")) {
-    console.log("Hi");
-  }
+  
   document.getElementById("books");
 };
 
-// check = () => {
-//   if (
-//     !document
-//       .getElementById("dropdownMenuButton")
-//       .getAttribute("class")
-//       .split("")
-//       .includes("visible")
-//   ) {
-//     dropChild = document.getElementById("dropdownMenuButton").children;
-//     for (i in dropChild) {
-//       myLevel = dropChild[i].getAttribute("class").split(" ");
-//       if (myLevel.includes("active")) {
-//         console.log(dropChild[i].getAttribute("value"));
-//         return dropChild[i].getAttribute("value");
-//       }
-//       // if (dropChild[i])
-//     }
-//   }
-// };
-
-// check2 = () => {
-//   if (check() in levelDict) {
-//     console.log("hi");
-//   }
-//   if (
-//     !document
-//       .getElementById("dropdownMenuButton2")
-//       .getAttribute("class")
-//       .split("")
-//       .includes("visible")
-//   ) {
-//     dropChild = document.getElementById("dropdownMenuButton2").children;
-// for (i in dropChild) {
-//   myLevel = dropChild[i].getAttribute("class").split(" ");
-//   if (myLevel.includes("active")) {
-//     console.log(dropChild[i].getAttribute("value"));
-//   }
-//   // if (dropChild[i])
-// }
-//   }
-// };
 
 // Remove Select Level From Drop Down
 document.getElementById("dropdownMenuButton").addEventListener("click", () => {

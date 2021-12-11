@@ -24,8 +24,8 @@ function filter(){
 
 showBooks = (level, subject) => {
   var title = []
-    var url = []
-    var qty = []
+  var url = []
+  var qty = []
    $.getJSON("../JSON/store.json", (data) => {
      if ((level == "placeholder" || level == "ALL") && (subject == "" || subject == "ALL")) {
        for (lvl in data) {
